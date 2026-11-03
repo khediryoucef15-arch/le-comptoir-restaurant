@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Réservez votre table au Comptoir à Lyon.">
+    <title>Réservation - Le Comptoir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="header-contenu">
+
+        <a href="index.html" class="logo">Le Comptoir <small>LYON</small></a>
+
+        <details class="menu-mobile">
+            <summary>Menu ☰</summary>
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="index.html#carte">La carte</a>
+            </nav>
+        </details>
+
+        <nav class="menu-desktop">
+            <a href="index.html">Accueil</a>
+            <a href="index.html#carte">La carte</a>
+            <a href="index.html#infos">Infos pratiques</a>
+        </nav>
+
+    </div>
+</header>
+
+<main class="page">
+
+    <p class="surtitre">LE COMPTOIR · LYON</p>
+
+    <h1>Réserver une table</h1>
+
+    <p>Nous serons heureux de vous accueillir !</p>
+
+    <form class="formulaire" action="#" method="post">
+
+        <div class="champ">
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+
+        <div class="champ">
+            <label for="email">Votre adresse e-mail</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="champ">
+            <label for="telephone">Téléphone</label>
+            <input type="tel" id="telephone" name="telephone" required>
+        </div>
+
+        <div class="champ">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+
+        <div class="champ">
+            <label for="heure">Heure</label>
+            <select id="heure" name="heure" required>
+                <option value="">Choisir une heure</option>
+                <option>12:00</option>
+                <option>12:30</option>
+                <option>13:00</option>
+                <option>19:00</option>
+                <option>19:30</option>
+                <option>20:00</option>
+                <option>20:30</option>
+            </select>
+        </div>
+
+        <div class="champ">
+            <label for="personnes">Nombre de personnes</label>
+            <select id="personnes" name="personnes" required>
+                <option value="">Choisir</option>
+                <option>1 personne</option>
+                <option>2 personnes</option>
+                <option>3 personnes</option>
+                <option>4 personnes</option>
+                <option>5 personnes</option>
+                <option>6 personnes</option>
+            </select>
+        </div>
+
+        <div class="champ">
+            <label for="message">Message (facultatif)</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="bouton">
+            Envoyer la demande
+        </button>
+
+        
+    </form>
+
+</main>
+
+<footer class="footer">
+    <div class="conteneur footer-contenu">
+        <div>
+            <h3>Le Comptoir LYON</h3>
+            <p>Bistrot de saison depuis 2019.</p>
+        </div>
+
+        <div>
+            <h3>Informations</h3>
+            <a href="mentions-legales.html">Mentions légales</a>
+            <a href="confidentialite.html">Confidentialité</a>
+        </div>
+
+        <div>
+            <h3>Navigation</h3>
+            <a href="index.html">Accueil</a>
+        </div>
+    </div>
+
+    <p class="copyright">© 2026 Le Comptoir</p>
+</footer>
+
+</body>
+</html>
